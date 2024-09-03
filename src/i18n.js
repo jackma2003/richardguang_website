@@ -12,7 +12,7 @@ const messages = {
     neighborhoodGuideLink: "Neighborhood Guide",
     contactLink: "Contact",
     footerText: "© 2024 Richard Guang. All rights reserved.",
-    translateButton: "Switch to Chinese",
+    translateButton: "中文",
     // home.vue
     home: {
       title: "Richard Guang Real Estate",
@@ -104,7 +104,7 @@ const messages = {
     neighborhoodGuideLink: "社区指南",
     contactLink: "联系我们",
     footerText: "© 2024 Richard Guang. 保留所有权利。",
-    translateButton: "切换英语",
+    translateButton: "English",
     //home.vue
     home: {
       title: "Richard Guang 房地产",
