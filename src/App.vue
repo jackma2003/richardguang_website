@@ -27,10 +27,9 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div class="flex items-center space-x-4">
-            <h3 class="text-lg font-bold text-gray-900">RICHARD GUANG REAL ESTATE</h3>
             <div class="flex items-center space-x-2">
-              <span class="text-gray-600">WECHAT:</span>
-              <span class="font-medium">RichardGuangNYC</span>
+              <span class="text-gray-600">WeChat:</span>
+              <span class="font-medium">guang-rich</span>
             </div>
           </div>
           <div class="flex space-x-4">
@@ -49,7 +48,7 @@
           </div>
         </div>
         <div class="flex flex-col md:flex-row justify-between items-center mt-4 space-y-2 md:space-y-0">
-          <a href="tel:+19174493539" class="text-gray-600 hover:text-gray-900">(917) 449-3539</a>
+          <a href="tel:+1(718)4967914" class="text-gray-600 hover:text-gray-900">+1 (718) 496 7914</a>
           <a href="mailto:rguang@elliman.com" class="text-gray-600 hover:text-gray-900">RGUANG@ELLIMAN.COM</a>
         </div>
       </div>
