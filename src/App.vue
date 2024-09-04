@@ -6,8 +6,9 @@
           <h1 class="text-2xl font-bold text-gray-800">RG</h1>
         </div>
         <nav class="flex space-x-4">
-          <router-link v-for="item in navItems" :key="item.route" :to="item.route" class="nav-link">
+          <router-link v-for="item in navItems" :key="item.route" :to="item.route" class="nav-link relative px-3 py-2 text-sm font-medium text-gray-700 transition-all duration-300 ease-in-out rounded-md hover:bg-gray-100 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
             {{ item.label }}
+            <span class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 transform scale-x-0 transition-transform duration-300 ease-in-out group-hover:scale-x-100"></span>
           </router-link>
         </nav>
         <button 
