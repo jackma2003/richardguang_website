@@ -12,9 +12,10 @@
         </nav>
         <button 
           @click="toggleLanguage" 
-          class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105"
+          class="translate-btn group relative overflow-hidden bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
         >
-          {{ $t('translateButton') }}
+        <span class="absolute inset-0 w-full h-full bg-gradient-to-r from-indigo-600 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out"></span>
+        <span class="relative">{{ $t('translateButton') }}</span>
         </button>
       </div>
     </header>
